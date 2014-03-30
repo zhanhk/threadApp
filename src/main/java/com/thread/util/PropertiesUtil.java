@@ -15,7 +15,7 @@ public class PropertiesUtil {
 	//存放配置文件的所有的key-value
 	private static Map<String,String> allParam = new HashMap<String, String>();
 	
-	//根据文件名称-key，返回相应key的�?
+	//根据文件名称-key，返回相应key的�?
     public static String getPropertiesByKey(String key){
 		try {
 			 if(allParam.containsKey(key)){
